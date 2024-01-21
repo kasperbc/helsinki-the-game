@@ -1,0 +1,3 @@
+## Find a Yellow Car
+
+Find a yellow car and take a selfie with it visible. If the game is played with teams, one of the teammates must be hitting the other one in the picture.

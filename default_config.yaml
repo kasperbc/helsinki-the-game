@@ -1,0 +1,63 @@
+version: 1
+
+# Bot Settings
+bot_token: "token" # replace with your bot token (do not remove quotation marks)
+server_id: 1234567890 # replace with your server id
+game_feed_channel_id: 1234567890 # replace with the "game feed" channel id
+game_status_channel_id: 1234567890 # replace with the "game status" channel id
+
+# Meta Settings
+datetime_format: "%d/%m/%Y %H:%M:%S"
+
+# Game Settings
+starting_balance: 3 # The amount of coins each player starts with
+coins_per_tag: 2 # The amount of coins earned upon tagging another team
+coins_per_capture: 1 # The amount of coins earned upon capturing a district
+
+items: {
+  metro_pass: {
+    enabled: true, # Enable the item?
+    cost: 1 # The cost of the item
+  },
+  challenge_redraw: {
+    enabled: true, # Enable the item?
+    cost: 2 # The cost of the item
+  },
+  insta_capture: {
+    enabled: true, # Enable the item?
+    cost: 6 # The cost of the item
+  }
+}
+
+enable_challenge_reroll: true # Enable the item?
+
+
+districts: [ # The districts available for capture in the game.
+             # This list is slightly different than the official list of districts,
+             # stopping north of Pasila and east of Kulosaari.
+    "Kruununhaka",
+    "Katajanokka",
+    "Kaartinkaupunki",
+    "Kaivopuisto",
+    "Ullanlinna",
+    "Hernesaari",
+    "Eira",
+    "Jätkäsaari",
+    "Ruoholahti",
+    "Lauttasaari",
+    "Punavuori",
+    "Kamppi",
+    "Etu-Töölö",
+    "Alppiharju",
+    "Taka-Töölö",
+    "Hermanni",
+    "Vallila",
+    "Pasila",
+    "Ruskeasuo",
+    "Suomenlinna",
+    "Kulosaari",
+    "Kallio",
+    "Sörnäinen",
+    "Siltasaari",
+    "Meilahti"
+]

@@ -1,0 +1,3 @@
+## Find three fast food chains
+
+Complete this challenge by visiting at least three different fast food chains, taking a selfie in front of them and sending it to the server.
